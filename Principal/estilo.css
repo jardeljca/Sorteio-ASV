@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    height: 100vh;
+    max-width: 1024px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-body{
+    background-image: url(./img/fundo\ asv.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 300px;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+}
+.corpo .corpo-sorteio{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.corpo h2{
+    font-size: 50px;
+    text-align: center;
+    text-shadow:3px 3px 5px #fff;
+    text-transform: uppercase;
+}
+.corpo .color1{
+    color: #02d3f3;
+}
+.corpo .color2{
+    color: #F9C502;
+}
+.corpo .color3{
+    color: #FD0227;
+}
+.corpo .color4{
+    color: #00BA61;
+}
+.corpo .color5{
+    color: #FD6DB8;
+}
+.corpo .color6{
+    color: #FD7F00;
+}
+.corpo .color7{
+    color: #7300B8;
+}
+.corpo .color8{
+    color: #02d3f3;
+}
+.corpo .color9{
+    color: #F9C502;
+}
+.corpo .color10{
+    color: #000;
+}
+.corpo .color11{
+    color: #000;
+}
+.corpo .color12{
+    color: #FD0227;
+}
+.corpo .color13{
+    color: #00BA61;
+}
+.corpo .color14{
+    color: #000;
+}
+.corpo .color15{
+    color: #000;
+}
+.corpo .color16{
+    color: #000;
+}
+.corpo .color17{
+    color: #FD6DB8;
+}
+.corpo .color18{
+    color: #000;
+}
+.corpo .color19{
+    color: #FD7F00;
+}
+.corpo .color20{
+    color: #7300B8;
+}
+
+.corpo p{
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow:3px 3px 5px #fff;
+}
+.corpo button{
+    box-shadow: 3px 4px 0px 0px #276873;
+	background: linear-gradient(90deg, rgba(249,197,2,1) 0%, rgba(253,2,39,1) 35%, rgba(2,211,243,1) 100%);
+	border-radius:18px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.corpo button:hover {
+	background:linear-gradient(90deg, rgba(2,211,243,1) 0%, rgba(253,2,39,1) 35%, rgba(249,197,2,1) 100%);
+}
+/* ################################################################################# */
+@media screen and (min-width: 601px) and (max-width: 840px) {
+    header{
+        margin-right: 150px;
+    }
+    header img{
+        width: 80px;
+        height: 80px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .corpo .corpo-sorteio{
+        height: 300px;
+        width: 300px;
+    }
+    .corpo h2{
+        font-size: 40px;
+    }
+    .corpo p{
+        font-size: 40px;
+    }
+    .corpo button{
+        font-size:15px;
+    }
+}
+/* ################################################################################# */
+@media screen and (min-width: 371px) and (max-width: 600px) {
+    body{
+        display:  flex;
+        flex-direction: column;
+    }
+    .img-body{
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    header img{
+        width: 70px;
+        height: 70px;
+        margin: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .corpo .corpo-sorteio{
+        height: 300px;
+        width: 300px;
+        margin-top: 50px;
+    }
+    .corpo h2{
+        font-size: 40px;
+    }
+    .corpo p{
+        font-size: 40px;
+    }
+    .corpo button{
+        font-size:15px;
+    }
+}
+/* ################################################################################# */
+@media screen and (min-width: 261px) and (max-width: 370px) {
+}
+/* ################################################################################# */
+@media screen and (min-width: 100px) and (max-width: 260px) {
+        body{
+            display: none;
+        }
+}
