@@ -42,7 +42,7 @@ header img{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
 }
 .corpo h2{
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     text-shadow:3px 3px 5px #fff;
     text-transform: uppercase;
@@ -147,7 +147,7 @@ header img{
         width: 300px;
     }
     .corpo h2{
-        font-size: 40px;
+        font-size: 30px;
     }
     .corpo p{
         font-size: 40px;
@@ -186,7 +186,7 @@ header img{
         margin-top: 50px;
     }
     .corpo h2{
-        font-size: 40px;
+        font-size: 30px;
     }
     .corpo p{
         font-size: 40px;
@@ -225,7 +225,7 @@ header img{
         margin-top: 90px;
     }
     .corpo h2{
-        font-size: 25px;
+        font-size: 20px;
     }
     .corpo p{
         font-size: 30px;
