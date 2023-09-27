@@ -12,9 +12,11 @@ body{
     align-items: center;
 }
 .img-body{
-    background-image: url(./img/fundo\ asv.jpg);
+    background-image: url(./img/fundo\ 1.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header{
     display: flex;
