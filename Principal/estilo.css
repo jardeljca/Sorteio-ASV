@@ -197,6 +197,42 @@ header img{
 }
 /* ################################################################################# */
 @media screen and (min-width: 261px) and (max-width: 370px) {
+    body{
+        display:  flex;
+        flex-direction: column;
+    }
+    .img-body{
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    header img{
+        width: 50px;
+        height: 50px;
+        margin: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .corpo .corpo-sorteio{
+        height: 200px;
+        width: 200px;
+        margin-top: 90px;
+    }
+    .corpo h2{
+        font-size: 25px;
+    }
+    .corpo p{
+        font-size: 30px;
+    }
+    .corpo button{
+        font-size:12px;
+    }
 }
 /* ################################################################################# */
 @media screen and (min-width: 100px) and (max-width: 260px) {
